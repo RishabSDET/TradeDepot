@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="OTC.Automation.Framework.FunExpressDIT">
+      <class name="OTC.Automation.Framework.SmileMakersUSDIT">
         <methods>
-          <include name="closee"/>
-          <include name="setupFx"/>
-          <include name="Fx"/>
+          <include name="closebrowser"/>
+          <include name="invokebrowser"/>
+          <include name="Regression_SM_US_DIT"/>
         </methods>
-      </class> <!-- OTC.Automation.Framework.FunExpressDIT -->
+      </class> <!-- OTC.Automation.Framework.SmileMakersUSDIT -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
