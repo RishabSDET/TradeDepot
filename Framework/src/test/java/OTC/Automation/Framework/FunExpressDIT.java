@@ -35,7 +35,7 @@ public class FunExpressDIT extends DriverClass
     	driver.navigate().refresh();
 
     	      WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-    	       WebElement element1 = wait.until(
+    	      WebElement element1 = wait.until(
     	    		    ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='search']"))
     	    		); 
     	       element1.sendKeys("Stickers"); 
@@ -193,8 +193,7 @@ public class FunExpressDIT extends DriverClass
     	        By.xpath("//*[@id=\"placed_by\"]")
     	    ));
     	    productLink13.sendKeys("TESTQASM112511");
-    	  
-    	    
+  
     	  
     	    WebDriverWait wait16 = new WebDriverWait(driver, Duration.ofSeconds(40));
     	    
@@ -213,9 +212,9 @@ public class FunExpressDIT extends DriverClass
       	  
       	 ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight);");
       	  
-      	  //((JavascriptExecutor) driver).executeScript("window.scrollBy(0, 55  0);");
-      // Wait for loading mask to disappear
-      	wait17.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.loading-mask")));
+//       ((JavascriptExecutor) driver).executeScript("window.scrollBy(0, 55  0);"); 
+//       Wait for loading mask to disappear
+      	 wait17.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.loading-mask")));
       	  
       	    Thread.sleep(2000);
 //
@@ -229,7 +228,7 @@ public class FunExpressDIT extends DriverClass
 
 
 
-          // Now click the button
+//          Now click the button
             WebElement placeOrderBtn = wait17.until(ExpectedConditions.elementToBeClickable(
             By.xpath("//*[@id='review_info']/div[3]/div/button")
               ));
@@ -280,13 +279,16 @@ public class FunExpressDIT extends DriverClass
 //    	    // Scroll into view
 //    	    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", productLink2);
 //
-////    	    // Click using JS for reliability
-////    	    ((JavascriptExecutor) driver).executeScript("arguments[0].click();", productLink2); }
-////    	    
+//    	    // Click using JS for reliability
+//    	    ((JavascriptExecutor) driver).executeScript("arguments[0].click();", productLink2); }
+//    	    
 //    	 
 //    		
 //    	}
 //    	
+    	
+    	
+    	
          @AfterMethod	
     	public void closee() {
     		driver.close();

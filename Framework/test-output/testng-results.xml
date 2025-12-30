@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-01T18:14:20 IST" name="Default suite" finished-at="2025-12-01T18:15:44 IST" duration-ms="84199">
+  <suite started-at="2025-12-29T19:30:22 IST" name="Default suite" finished-at="2025-12-29T19:31:45 IST" duration-ms="83325">
     <groups>
     </groups>
-    <test started-at="2025-12-01T18:14:20 IST" name="Default test" finished-at="2025-12-01T18:15:44 IST" duration-ms="84199">
-      <class name="OTC.Automation.Framework.FunExpressDIT">
-        <test-method is-config="true" signature="setupFx()[pri:0, instance:OTC.Automation.Framework.FunExpressDIT@3c41ed1d]" started-at="2025-12-01T18:14:20 IST" name="setupFx" finished-at="2025-12-01T18:14:21 IST" duration-ms="1517" status="PASS">
+    <test started-at="2025-12-29T19:30:22 IST" name="Default test" finished-at="2025-12-29T19:31:45 IST" duration-ms="83325">
+      <class name="OTC.Automation.Framework.SmileMakersUSDIT">
+        <test-method is-config="true" signature="invokebrowser()[pri:0, instance:OTC.Automation.Framework.SmileMakersUSDIT@22555ebf]" started-at="2025-12-29T19:30:22 IST" name="invokebrowser" finished-at="2025-12-29T19:30:23 IST" duration-ms="1550" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupFx -->
-        <test-method signature="Fx()[pri:0, instance:OTC.Automation.Framework.FunExpressDIT@3c41ed1d]" started-at="2025-12-01T18:14:21 IST" name="Fx" finished-at="2025-12-01T18:15:44 IST" duration-ms="82467" status="PASS">
+        </test-method> <!-- invokebrowser -->
+        <test-method signature="Regression_SM_US_DIT()[pri:0, instance:OTC.Automation.Framework.SmileMakersUSDIT@22555ebf]" started-at="2025-12-29T19:30:23 IST" name="Regression_SM_US_DIT" finished-at="2025-12-29T19:31:45 IST" duration-ms="81577" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Fx -->
-        <test-method is-config="true" signature="closee()[pri:0, instance:OTC.Automation.Framework.FunExpressDIT@3c41ed1d]" started-at="2025-12-01T18:15:44 IST" name="closee" finished-at="2025-12-01T18:15:44 IST" duration-ms="176" status="PASS">
+        </test-method> <!-- Regression_SM_US_DIT -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:OTC.Automation.Framework.SmileMakersUSDIT@22555ebf]" started-at="2025-12-29T19:31:45 IST" name="closebrowser" finished-at="2025-12-29T19:31:45 IST" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closee -->
-      </class> <!-- OTC.Automation.Framework.FunExpressDIT -->
+        </test-method> <!-- closebrowser -->
+      </class> <!-- OTC.Automation.Framework.SmileMakersUSDIT -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
